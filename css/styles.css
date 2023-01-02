@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    height: 800px;;
+}
+
+main {
+    width : 400px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 28px;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+.ilustration {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    margin: 0;
+}
+
+.content {
+    margin: 40px;
+}
+
+.order-summary {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.box-annualplan {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.box-annualplan img{
+    float: left;
+}
+
+.satu {
+    margin: 0 0 5px 0 ;
+    color:hsl(223, 47%, 23%);
+    font-weight: bolder;
+}
+
+.dua {
+    margin: 0;
+}
+
+.annualplan-text {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.box-annualplan a{
+    float: right;
+    margin-top: 12px;
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+}
+
+.box-annualplan a:hover {
+    text-decoration: none;
+    color: #766CF1;
+}
+
+.box-button-proceed {
+    margin: 20px 0 0 0;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box-button-proceed:hover {
+    background-color: #766CF1;
+}
+
+.box-button-proceed p {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+
+.box-button-cancel {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box-button-cancel p {
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.box-button-cancel p:hover {
+    color: hsl(223, 47%, 23%);
+}
